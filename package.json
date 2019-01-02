@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "brain": "^1.0.0",
+    "brain.js": "^1.6.1",
+    "electron": "^4.0.0",
+    "monaco-editor": "0.15.6",
+    "path": "^0.12.7"
+  }
+}

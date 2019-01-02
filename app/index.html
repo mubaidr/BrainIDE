@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>BrainIDE</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="editor"></div>
+  <div id="output" ondblclick="logClear();" onclick="eval(editor.getValue());"></div>
+</body>
+<script src="../node_modules/brain.js/browser.min.js"></script>
+<script src="editor.js"></script>
+<script src="index.js"></script>
+</script>
+
+</html>
