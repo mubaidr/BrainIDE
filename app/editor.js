@@ -13,7 +13,6 @@
     amdRequire.config({
         baseUrl: uriFromPath(path.join(__dirname, '../node_modules/monaco-editor/min'))
     });
-    // workaround monaco-css not understanding the environment
     self.module = undefined;
     amdRequire(['vs/editor/editor.main'], function () {
         window.editor = monaco.editor.create(document.getElementById('editor'), {

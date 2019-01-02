@@ -3,9 +3,28 @@
   * Copyright 2019 (c) Misha Marinenko
   * ./index.js
 */
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
 let win;
-
+/*
+// TODO Our own menu
+const menu = Menu.buildFromTemplate([
+    {
+        label: 'Edit',
+        submenu: [
+            { role: 'undo' },
+            { role: 'redo' },
+            { type: 'separator' },
+            { role: 'cut' },
+            { role: 'copy' },
+            { role: 'paste' },
+            { role: 'pasteandmatchstyle' },
+            { role: 'delete' },
+            { role: 'selectall' }
+        ]
+    }
+])
+Menu.setApplicationMenu(menu)
+*/
 function createWindow() {
     win = new BrowserWindow({ width: 1024, height: 600, title: "BrainIDE" });
     win.loadFile('app/index.html');
