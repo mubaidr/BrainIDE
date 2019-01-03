@@ -18,6 +18,7 @@
         window.editor = monaco.editor.create(document.getElementById('editor'), {
             value: [
                 '/* In right you can see the log output \n * To run code just click on it \n * To Create HTML in output just put it into log String argument like log("<h1>Hello World</h1>")  \n * To clear it add to code logClear() or Just Double-Click on it. \n * F1 to open Command palette. \n */',
+                'let brain = require("brain.js");',
                 'log("<h4>Welcome to BrainIDE, <br> JavaScript Editor with brain.js included!</h4>");',
                 "const net = new brain.NeuralNetwork();",
                 "net.train([{input: { r: 0.03, g: 0.7, b: 0.5 }, output: { black: 1 }},",
