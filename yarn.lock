@@ -1013,6 +1013,11 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
+json-formatter-js@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/json-formatter-js/-/json-formatter-js-2.2.1.tgz#b101d628e86f028dc9cf9a7e1c83c65e536c9f87"
+  integrity sha1-sQHWKOhvAo3Jz5p+HIPGXlNsn4c=
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"

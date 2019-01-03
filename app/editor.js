@@ -1,3 +1,4 @@
+//TODO import JSONFormatter from 'json-formatter-js'
 (function () {
     const path = require('path');
     const amdLoader = require('../node_modules/monaco-editor/min/vs/loader.js');
@@ -35,6 +36,12 @@ function log(data) {
     let log = document.querySelector("div#output");
     log.innerHTML = log.innerHTML + "<br>" + data;
 }
+/* TODO JSONFormatter
+function logjson(json) {
+    let log = document.querySelector("div#output");
+    const formatter = new JSONFormatter(json);
+    log.innerHTML = log.innerHTML + "<br>" + formatter.render();
+} */
 function logClear() {
     document.querySelector("div#output").innerHTML = "";
 }

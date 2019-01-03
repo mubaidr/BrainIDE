@@ -24,6 +24,7 @@
   "dependencies": {
     "brain": "^1.0.0",
     "brain.js": "^1.6.1",
+    "json-formatter-js": "^2.2.1",
     "monaco-editor": "0.15.6",
     "path": "^0.12.7"
   },
