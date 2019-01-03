@@ -1,12 +1,29 @@
 {
+  "name": "brainide",
+  "displayName": "BrainIDE",
+  "version": "0.0.1",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:pack": "electron-builder --dir",
+    "build:all": "electron-builder --mwl",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux deb tar.xz "
+  },
+  "build": {
+    "appId": "io.marinenko.brainide",
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    }
   },
   "dependencies": {
     "brain": "^1.0.0",
     "brain.js": "^1.6.1",
-    "electron": "^4.0.0",
     "monaco-editor": "0.15.6",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-builder": "^20.38.4"
   }
 }

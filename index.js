@@ -7,7 +7,7 @@ const { app, BrowserWindow } = require('electron');
 let win;
 
 function createWindow() {
-    win = new BrowserWindow({ width: 1024, height: 600, title: "BrainIDE" });
+    win = new BrowserWindow({ width: 1024, height: 600, title: "BrainIDE", icon: "./icon.png" });
     win.loadFile('app/index.html');
     win.webContents.openDevTools();
     win.on('closed', () => {
