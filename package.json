@@ -10,6 +10,11 @@
     "build:win": "electron-builder --win",
     "build:linux": "electron-builder --linux deb tar.xz "
   },
+  "author": {
+    "email": "misha.marinenko.a@gmail.com",
+    "name": "Misha Marinenko",
+    "url": "http://marinenko.rf.gd"
+  },
   "build": {
     "appId": "io.marinenko.brainide",
     "mac": {
